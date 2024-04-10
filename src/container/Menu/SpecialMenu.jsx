@@ -47,7 +47,11 @@ const SpecialMenu = () => (
       </div>
     </div>
     <div style={{ marginTop: "15px" }}>
-      <button type="button" className="custom__button">
+      <button
+        type="button"
+        className="custom__button"
+        onclick="location.href='https://i.ibb.co/TTcp3V0/download.png';"
+      >
         View More
       </button>
     </div>
