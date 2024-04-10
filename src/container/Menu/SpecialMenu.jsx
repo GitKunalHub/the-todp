@@ -50,7 +50,9 @@ const SpecialMenu = () => (
       <button
         type="button"
         className="custom__button"
-        onclick="location.href='https://i.ibb.co/TTcp3V0/download.png';"
+        onClick={() => {
+          window.location.href = "https://i.ibb.co/TTcp3V0/download.png";
+        }}
       >
         View More
       </button>

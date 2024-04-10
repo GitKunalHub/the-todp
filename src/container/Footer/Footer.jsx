@@ -18,6 +18,7 @@ const Footer = () => (
           Shop No. 35 Rajmahal Complex, Behind Surya Residency, nr. Dhiraj Sons,
           Vesu, Surat, Gujarat 395007
         </p>
+        <br />
         <p className="p__opensans">+91 8200544305</p>
       </div>
       <div className="app__footer-links_logo">
@@ -30,9 +31,22 @@ const Footer = () => (
           style={{ marginTop: 15 }}
         />
         <div className="app__footer-links_icons">
-          <FiFacebook />
-          <FiTwitter />
-          <FiInstagram />
+          <FiFacebook
+            onClick={() => {
+              window.location.href = "https://www.facebook.com/thetodp/";
+            }}
+          />
+          <FiTwitter
+            onClick={() => {
+              window.location.href = "https://twitter.com/thetodp";
+            }}
+          />
+          <FiInstagram
+            onClick={() => {
+              window.location.href =
+                "https://www.instagram.com/thetodp_dalpakwan/";
+            }}
+          />
         </div>
       </div>
       <div className="app__footer-links_work">

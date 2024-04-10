@@ -15,7 +15,13 @@ const Header = () => (
         for royalty (minus the uncomfortable crown). Join us and unlock the
         delicious secrets of fine dining.
       </p>
-      <button type="button" className="custom__button">
+      <button
+        type="button"
+        className="custom__button"
+        onClick={() => {
+          window.location.href = "https://i.ibb.co/TTcp3V0/download.png";
+        }}
+      >
         Explore Menu
       </button>
     </div>
