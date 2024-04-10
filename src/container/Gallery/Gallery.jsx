@@ -52,7 +52,14 @@ const Gallery = () => {
           Prepare to be seriously hungry (but don't worry, the real food is even
           more amazing).
         </p>
-        <button type="button" className="custom__button">
+        <button
+          type="button"
+          className="custom__button"
+          onClick={() => {
+            window.location.href =
+              "https://www.instagram.com/thetodp_dalpakwan/";
+          }}
+        >
           View More
         </button>
       </div>
@@ -65,7 +72,13 @@ const Gallery = () => {
               key={`gallery_image-${index + 1}`}
             >
               <img src={image} alt="gallery" />
-              <BsInstagram className="gallery__image-icon" />
+              <BsInstagram
+                className="gallery__image-icon"
+                onClick={() => {
+                  window.location.href =
+                    "https://www.instagram.com/thetodp_dalpakwan/";
+                }}
+              />
             </div>
           ))}
         </div>

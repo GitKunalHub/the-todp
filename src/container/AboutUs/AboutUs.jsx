@@ -23,7 +23,13 @@ const AboutUs = () => (
           still hold the legacy of our beginnings close, and you can always find
           our legendary Dal Pakwan on the menu.
         </p>
-        <button type="button" className="custom__button">
+        <button
+          type="button"
+          className="custom__button"
+          onClick={() => {
+            window.location.href = "https://g.co/kgs/5MTNmsH";
+          }}
+        >
           Know More
         </button>
       </div>
@@ -43,7 +49,13 @@ const AboutUs = () => (
           cornerstone of our menu. Come savor the taste of tradition, a legacy
           of flavor that began over a decade ago.
         </p>
-        <button type="button" className="custom__button">
+        <button
+          type="button"
+          className="custom__button"
+          onClick={() => {
+            window.location.href = "https://g.co/kgs/5MTNmsH";
+          }}
+        >
           Know More
         </button>
       </div>

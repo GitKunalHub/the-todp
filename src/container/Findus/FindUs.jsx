@@ -24,7 +24,13 @@ const FindUs = () => (
         <p className="p__opensans">Mon - Fri: 07:30 am - 09:00 pm</p>
         <p className="p__opensans">Sat - Sun: 09:30 am - 10:30 pm</p>
       </div>
-      <button className="custom__button" style={{ marginTop: "2rem" }}>
+      <button
+        className="custom__button"
+        style={{ marginTop: "2rem" }}
+        onClick={() => {
+          window.location.href = "https://maps.app.goo.gl/KKa9Kukspf5pZcwa6";
+        }}
+      >
         Visit Us
       </button>
     </div>

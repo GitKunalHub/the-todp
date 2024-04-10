@@ -19,7 +19,7 @@ const Header = () => (
         type="button"
         className="custom__button"
         onClick={() => {
-          window.location.href = "https://i.ibb.co/TTcp3V0/download.png";
+          window.location.href = "https://the-todp.vercel.app/#menu";
         }}
       >
         Explore Menu
