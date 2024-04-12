@@ -18,6 +18,15 @@
   z-index: 2;
 }
 
+.headtext__cormorantt {
+  font-family: var(--font-base);
+  color: var(--color-black);
+  font-size: 64px;
+  line-height: 83.2px;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+}
+
 .app__aboutus-content_about {
   flex: 1;
   display: flex;

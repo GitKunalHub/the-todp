@@ -14,7 +14,7 @@ const AboutUs = () => (
 
     <div className="app__aboutus-content flex__center">
       <div className="app__aboutus-content_about">
-        <h1 className="headtext__cormorant">About Us</h1>
+        <h1 className="headtext__cormorantt">About Us</h1>
         <img src={images.spoon} alt="about_spoon" className="spoon__img" />
         <p className="p__opensanss">
           We started as a catering service, specializing in the irresistible
@@ -39,7 +39,7 @@ const AboutUs = () => (
       </div>
 
       <div className="app__aboutus-content_history">
-        <h1 className="headtext__cormorant">Our History</h1>
+        <h1 className="headtext__cormorantt">Our History</h1>
         <img src={images.spoon} alt="about_spoon" className="spoon__img" />
         <p className="p__opensanss">
           Back in 2007, a seed was sown – a seed of sharing our love for the
@@ -49,15 +49,6 @@ const AboutUs = () => (
           cornerstone of our menu. Come savor the taste of tradition, a legacy
           of flavor that began over a decade ago.
         </p>
-        <button
-          type="button"
-          className="custom__button"
-          onClick={() => {
-            window.location.href = "https://g.co/kgs/5MTNmsH";
-          }}
-        >
-          Know More
-        </button>
       </div>
     </div>
   </div>

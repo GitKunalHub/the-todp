@@ -23,7 +23,12 @@ const Footer = () => (
       </div>
       <div className="app__footer-links_logo">
         <img src={images.gericht} alt="footer_logo" />
-        <p className="p__opensanss">Making Memories, One Pakwan at a Time.</p>
+        <p
+          className="p__cormorant"
+          style={{ color: "var(--color-golden)", fontSize: "13pt" }}
+        >
+          Making Memories, One Pakwan at a Time.
+        </p>
         <img
           src={images.spoon}
           alt="spoon"
@@ -51,10 +56,8 @@ const Footer = () => (
       </div>
       <div className="app__footer-links_work">
         <h1 className="app__footer-headtext">Working Hours</h1>
-        <p className="p__opensanss">Monday-Friday:</p>
+        <p className="p__opensanss">Monday-Sunday:</p>
         <p className="p__opensanss">07:30 Am - 09:00 Pm</p>
-        <p className="p__opensanss">Saturday-Sunday:</p>
-        <p className="p__opensanss">09:30 Am - 10:30 Pm</p>
       </div>
     </div>
     <div className="footer__copyright">

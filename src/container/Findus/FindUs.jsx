@@ -6,8 +6,8 @@ import { images } from "../../constants";
 const FindUs = () => (
   <div className="app__bg app__wrapper section__padding" id="contact">
     <div className="app__wrapper_info">
-      <SubHeading title="Contact" />
-      <h1 className="headtext__cormorant" style={{ marginBottom: "3rem" }}>
+      <SubHeading title="Contact" color={"var(--color-black)"} />
+      <h1 className="headtext__cormorantt" style={{ marginBottom: "3rem" }}>
         Find Us
       </h1>
       <div className="app__wrapper-content">
@@ -17,7 +17,7 @@ const FindUs = () => (
         </p>
         <p
           className="p__cormorant"
-          style={{ color: "#DCCA87", margin: "2rem 0" }}
+          style={{ color: "black", margin: "4rem 0", fontSize: "25pt" }}
         >
           Opening Hours
         </p>
