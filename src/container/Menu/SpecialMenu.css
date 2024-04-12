@@ -1,6 +1,6 @@
 .app__specialMenu {
   flex-direction: column;
-  background: var(--color-black);
+  background: var(--color-todp);
 }
 
 .app__specialMenu-title {
@@ -15,6 +15,24 @@
   justify-content: center;
   align-items: flex-start;
   flex-direction: row;
+}
+
+.app__specialMenu-tabs_list {
+  display: flex;
+  justify-content: center;
+  list-style: georgian;
+  padding: 0;
+}
+
+.app__specialMenu-tabs_item {
+  margin-right: 10px;
+  padding: 8px 16px;
+  background-color: var(--color-golden);
+  color: #333;
+  border-radius: 5px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-family: var(--font-base);
 }
 
 .app__specialMenu-menu_heading {
@@ -75,6 +93,13 @@
 @media screen and (max-width: 650px) {
   .app__specialMenu-menu_img {
     display: none;
+  }
+
+  .app__specialMenu-tabs_list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Two columns */
+    gap: 5px; /* Adjust as needed */
+    justify-content: center;
   }
 
   .app__specialMenu-menu_heading {
