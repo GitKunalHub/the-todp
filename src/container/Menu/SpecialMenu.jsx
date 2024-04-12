@@ -1,15 +1,17 @@
 import React, { useState } from "react";
 
-import { images, data } from "../../constants";
+import { data } from "../../constants";
 
 import { SubHeading, MenuItem } from "../../components";
 
 import "./SpecialMenu.css";
 
 const SpecialMenu = () => {
-  const [activeTab, setActiveTab] = useState("the_todp_specials"); // Set initial active tab
-
+  const [activeTab, setActiveTab] = useState("the_todp_specials");
   const handleClick = (category) => {
+    setTimeout(() => {
+      setActiveTab(category); // Reset the curtain animation after a short delay
+    }, 500); // Adjust the delay to match the animation duration
     setActiveTab(category);
   };
 
@@ -20,6 +22,7 @@ const SpecialMenu = () => {
         price={item.price}
         title={item.title}
         tags={item.tags}
+        className={activeTab === category ? "active" : ""}
       />
     ));
   };

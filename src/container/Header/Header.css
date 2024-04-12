@@ -4,11 +4,12 @@
 
 .app__header-h1 {
   font-family: var(--font-base);
+  font-weight: bolder;
   color: var(--color-black);
   letter-spacing: 0.04em;
   text-transform: uppercase;
-  line-height: 117px;
-  font-size: 90px;
+  line-height: 67px;
+  font-size: 30px;
 }
 
 .app__header .app__header-img img {
