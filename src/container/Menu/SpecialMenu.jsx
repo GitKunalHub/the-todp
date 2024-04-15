@@ -9,9 +9,6 @@ import "./SpecialMenu.css";
 const SpecialMenu = () => {
   const [activeTab, setActiveTab] = useState("the_todp_specials");
   const handleClick = (category) => {
-    setTimeout(() => {
-      setActiveTab(category); // Reset the curtain animation after a short delay
-    }, 500); // Adjust the delay to match the animation duration
     setActiveTab(category);
   };
 
@@ -45,6 +42,7 @@ const SpecialMenu = () => {
                 activeTab === category ? "active" : ""
               }`}
               onClick={() => handleClick(category)}
+              style={{ alignContent: "center" }}
             >
               {category.replace(/_/g, " ")}{" "}
               {/* Replace underscores with spaces in category names */}

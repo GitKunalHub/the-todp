@@ -43,7 +43,10 @@ const Gallery = () => {
       <div className="app__gallery-content">
         <SubHeading title="Instagram" />
         <h1 className="headtext__cormorant">Photo Gallery</h1>
-        <p className="p__opensans" style={{ color: "#AAA", marginTop: "2rem" }}>
+        <p
+          className="p__opensans"
+          style={{ color: "var(--color-crimson)", marginTop: "2rem" }}
+        >
           Food Photography So Good, It Should Be Illegal (But It's Not... Yet)
           Our photo gallery is a celebration of culinary artistry! Dive in for a
           close-up look at the vibrant colors, mouthwatering textures, and sheer

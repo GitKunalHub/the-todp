@@ -6,23 +6,31 @@ import { images } from "../../constants";
 const FindUs = () => (
   <div className="app__bg app__wrapper section__padding" id="contact">
     <div className="app__wrapper_info">
-      <SubHeading title="Contact" color={"var(--color-black)"} />
+      <SubHeading title="Contact" color={"var(--color-golden)"} />
       <h1 className="headtext__cormorantt" style={{ marginBottom: "3rem" }}>
         Find Us
       </h1>
       <div className="app__wrapper-content">
-        <p className="p__opensans">
+        <p className="p__opensans" style={{ color: "var(--color-crimson)" }}>
           Shop No. 35 Rajmahal Complex, Behind Surya Residency, nr. Dhiraj Sons,
           Vesu, Surat, Gujarat 395007
         </p>
         <p
           className="p__cormorant"
-          style={{ color: "black", margin: "4rem 0", fontSize: "25pt" }}
+          style={{
+            color: "var(--color-golden)",
+            margin: "4rem 0",
+            fontSize: "25pt",
+          }}
         >
           Opening Hours
         </p>
-        <p className="p__opensans">Mon - Fri: 07:30 am - 09:00 pm</p>
-        <p className="p__opensans">Sat - Sun: 09:30 am - 10:30 pm</p>
+        <p className="p__opensans" style={{ color: "var(--color-crimson)" }}>
+          Mon - Sun: 07:30 am - 09:00 pm
+        </p>
+        {/* <p className="p__opensans" style={{ color: "var(--color-crimson)" }}>
+          Sat - Sun: 09:30 am - 10:30 pm
+        </p> */}
       </div>
       <button
         className="custom__button"

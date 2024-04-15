@@ -8,7 +8,9 @@ const Newsletter = () => (
     <div className="app__newsletter-heading">
       <SubHeading title="NewsLetter" />
       <h1 className="headtext__cormorant">Subscribe To Our Newsletter</h1>
-      <p className="p__opensans">And never miss latest updates</p>
+      <p className="p__opensans" style={{ color: "var(--color-crimson)" }}>
+        And never miss latest updates
+      </p>
     </div>
     <div className="app__newsletter-input flex__center">
       <input type="email" placeholder="Enter your E-Mail Address" />
