@@ -30,7 +30,7 @@ const SpecialMenu = () => {
     <div className="app__specialMenu flex__center section__padding" id="menu">
       <div className="app__specialMenu-title">
         <SubHeading title="Menu that fits your palatte" />
-        <h1 className="headtext__cormorant">Today's Special</h1>
+        <h1 className="headtext__cormorant">Signature Sizzles</h1>
       </div>
 
       <div className="app__specialMenu-tabs">

@@ -7,12 +7,14 @@ import "./Footer.css";
 import { images } from "../../constants";
 
 const Footer = () => (
-  <div className="app__footer section__padding">
+  <div className="app__footer">
     <FooterOverlay />
-    <Newsletter />
+    <div className="footer__content section__padding">
+      <Newsletter />
+    </div>
 
     <div className="app__footer-links">
-      <div className="app__footer-links_contact">
+      {/* <div className="app__footer-links_contact">
         <h1 className="app__footer-headtext">Contact Us</h1>
         <p className="p__opensanss" style={{ color: "var(--color-crimson)" }}>
           Shop No. 35 Rajmahal Complex, Behind Surya Residency, nr. Dhiraj Sons,
@@ -22,12 +24,12 @@ const Footer = () => (
         <p className="p__opensanss" style={{ color: "var(--color-crimson)" }}>
           +91 8200544305
         </p>
-      </div>
+      </div> */}
       <div className="app__footer-links_logo">
         <img src={images.gericht} alt="footer_logo" />
         <p
           className="p__cormorant"
-          style={{ color: "var(--color-golden)", fontSize: "13pt" }}
+          style={{ color: "var(--color-crimson)", fontSize: "13pt" }}
         >
           Making Memories, One Pakwan at a Time.
         </p>
@@ -66,7 +68,10 @@ const Footer = () => (
       </div> */}
     </div>
     <div className="footer__copyright">
-      <p className="p__opensans" style={{ color: "var(--color-crimson)" }}>
+      <p
+        className="p__opensans"
+        style={{ color: "var(--color-crimson)", paddingBottom: "40px" }}
+      >
         2024 The Taste Of Dal Pakwan. All Rights Reserved.
       </p>
     </div>

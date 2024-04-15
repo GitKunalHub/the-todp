@@ -14,6 +14,11 @@ const FindUs = () => (
         <p className="p__opensans" style={{ color: "var(--color-crimson)" }}>
           Shop No. 35 Rajmahal Complex, Behind Surya Residency, nr. Dhiraj Sons,
           Vesu, Surat, Gujarat 395007
+          <br />
+          <br />
+        </p>
+        <p className="p__opensanss" style={{ color: "var(--color-crimson)" }}>
+          +91 8200544305
         </p>
         <p
           className="p__cormorant"
@@ -28,6 +33,7 @@ const FindUs = () => (
         <p className="p__opensans" style={{ color: "var(--color-crimson)" }}>
           Mon - Sun: 07:30 am - 09:00 pm
         </p>
+
         {/* <p className="p__opensans" style={{ color: "var(--color-crimson)" }}>
           Sat - Sun: 09:30 am - 10:30 pm
         </p> */}

@@ -12,13 +12,17 @@
   padding-top: 0;
 }
 
+.section__paddingg {
+  padding: 4rem;
+  height: fit-content;
+}
+
 .app__footer-links {
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
 
-  margin-top: 5rem;
   padding: 0 2rem;
 }
 
