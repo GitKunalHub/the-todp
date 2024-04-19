@@ -16,8 +16,7 @@ const SpecialMenu = () => {
 
   const renderMenu = (category) => {
     gsap.from(".app__specialMenu-menu_items", {
-      opacity: 0,
-      y: 100,
+      y: 50,
       duration: 0.5,
     });
     return data[category].map((item, index) => (
