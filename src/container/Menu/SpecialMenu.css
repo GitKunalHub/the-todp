@@ -18,10 +18,12 @@
 }
 
 .app__specialMenu-tabs_list {
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* Two columns */
+  gap: 5px;
   list-style: georgian;
   padding: 0;
+  justify-content: center;
 }
 
 .app__specialMenu-tabs_item {
@@ -32,7 +34,9 @@
   border-radius: 5px;
   cursor: pointer;
   text-transform: uppercase;
+  font-weight: 500;
   font-family: var(--font-base);
+  height: 80px;
 }
 
 .app__specialMenu-menu_heading {

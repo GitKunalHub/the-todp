@@ -2,6 +2,8 @@ import React, { useState } from "react";
 
 import { data } from "../../constants";
 
+import { gsap } from "gsap";
+
 import { SubHeading, MenuItem } from "../../components";
 
 import "./SpecialMenu.css";
@@ -13,6 +15,11 @@ const SpecialMenu = () => {
   };
 
   const renderMenu = (category) => {
+    gsap.from(".app__specialMenu-menu_items", {
+      opacity: 0,
+      y: 50,
+      duration: 0.5,
+    });
     return data[category].map((item, index) => (
       <MenuItem
         key={item.title}
