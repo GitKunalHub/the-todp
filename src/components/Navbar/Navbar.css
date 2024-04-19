@@ -113,6 +113,7 @@
   }
 
   .app__navbar-logo img {
+    margin-left: 120px;
     width: 110px;
   }
 }
