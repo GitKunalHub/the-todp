@@ -30,6 +30,11 @@ const Navbar = () => {
         <li className="p__opensans" onClick={handleLinkClick}>
           <a href="#contact">Contact</a>
         </li>
+        <li className="p__opensans" onClick={handleLinkClick}>
+          <a href="https://thetasteofdalpakwan.dotpe.in/store/1/delivery">
+            Delivery
+          </a>
+        </li>
       </ul>
       <div className="app__navbar-smallscreen">
         <GiHamburgerMenu
